@@ -5,6 +5,7 @@
     <Parameter Name="SonarCloudWebHookStateActorService_MinReplicaSetSize" DefaultValue="3" />
     <Parameter Name="SonarCloudWebHookStateActorService_TargetReplicaSetSize" DefaultValue="3" />
     <Parameter Name="SonarCloudWebHookStateActorService_PartitionCount" DefaultValue="1" />
+    <Parameter Name="AspNetCore_Environment" DefaultValue="Development" />
   </Parameters>
   <!-- Import the ServiceManifest from the ServicePackage. The ServiceManifestName and ServiceManifestVersion 
        should match the Name and Version attributes of the ServiceManifest element defined in the 
