@@ -41,11 +41,8 @@ namespace SonarWebHookFrontAPI.Controllers
         // POST api/hook
         [HttpPost()]
         public async Task<IActionResult> Post([FromBody] WebHookPayload value)
-        { 
-            if (value == null)
-                return BadRequest();
-
-            if (value.properties?.buildIdentifier == null)
+        {           
+            if (string.IsNullOrWhiteSpace(value?.properties?.buildIdentifier)|| string.IsNullOrWhiteSpace(value.qualityGate?.status))
                 return BadRequest();
 
             string serviceUri = _serviceContext.CodePackageActivationContext.ApplicationName + "/SonarCloudWebHookStateActorService";
