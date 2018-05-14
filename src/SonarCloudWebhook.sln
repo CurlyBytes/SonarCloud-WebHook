@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SonarCloudWebhook", "SonarCloudWebhook\SonarCloudWebhook.sfproj", "{5B02772F-7F70-484F-A43E-CD70CDDCDD19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SonarWebHookFrontAPI", "SonarWebHookFrontAPI\SonarWebHookFrontAPI.csproj", "{29C86280-2F3A-4846-BF2B-8A0892EB087E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarCloudWebHookState", "SonarCloudWebHookState\SonarCloudWebHookState.csproj", "{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarCloudWebHookState.Interfaces", "SonarCloudWebHookState.Interfaces\SonarCloudWebHookState.Interfaces.csproj", "{2513E81D-7532-4380-8D07-7FBFE5826BF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Debug|x64.ActiveCfg = Debug|x64
+		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Debug|x64.Build.0 = Debug|x64
+		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Debug|x64.Deploy.0 = Debug|x64
+		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Release|Any CPU.ActiveCfg = Release|x64
+		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Release|x64.ActiveCfg = Release|x64
+		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Release|x64.Build.0 = Release|x64
+		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Release|x64.Deploy.0 = Release|x64
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Debug|x64.Build.0 = Debug|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Release|x64.ActiveCfg = Release|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Release|x64.Build.0 = Release|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Debug|x64.Build.0 = Debug|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Release|x64.ActiveCfg = Release|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Release|x64.Build.0 = Release|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Debug|x64.Build.0 = Debug|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Release|x64.ActiveCfg = Release|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DB28EB6-42E3-4334-8ED3-894BCCDA72BD}
+	EndGlobalSection
+EndGlobal
