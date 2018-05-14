@@ -1,0 +1,81 @@
+{
+  "manifestVersion": 1,
+  "id": "SonarCloudQualityGate",
+  "version": "0.1.5",
+  "name": "SonarCloud quality gate",
+  "scopes": [],
+  "description": "this extension covers quality gate enforcement using data from SonarCloud",
+  "publisher": "eshopworld",
+  "public": true,
+  "icons": {
+    "default": "static/images/logo.png"
+  },
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "demands": [
+    "api-version/3.0"
+  ],
+  "tags": [
+    "Sample"
+  ],
+  "categories": [
+    "Build and release"
+  ],
+  "screenshots": [
+    {
+      "path": "SonarCloudQualityGate/static/images/screen1.png"
+    }
+  ],
+  "content": {
+    "license": {
+      "path": "SonarCloudQualityGate/license.md"
+    },
+    "details": {
+      "path": "SonarCloudQualityGate/overview.md"
+    }
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://github.com/eShopWorld/SonarCloud-WebHook"
+    },
+    "support": {
+      "uri": "https://github.com/eShopWorld/SonarCloud-WebHook"
+    },
+    "issues": {
+      "uri": "https://github.com/eShopWorld/SonarCloud-WebHook"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/eShopWorld/SonarCloud-WebHook"
+  },
+  "branding": {
+    "color": "rgb(220, 235, 252)",
+    "theme": "light"
+  },
+  "files": [
+    {
+      "path": "SonarCloudQualityGate"
+    },
+    {
+      "path": "ps_modules",
+      "packagePath": "SonarCloudQualityGate/SonarCloudQualityGate/ps_modules"
+    }
+
+  ],
+  "contributions": [
+    {
+      "id": "SonarCloudQualityGate",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "type": "ms.vss-distributed-task.task",
+      "properties": {
+        "name": "SonarCloudQualityGate"
+      }
+    }
+  ]
+}
