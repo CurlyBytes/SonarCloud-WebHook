@@ -1,4 +1,6 @@
-﻿namespace SonarCloudWebHookState.Interfaces
+﻿using Newtonsoft.Json;
+
+namespace SonarCloudWebHookState.Interfaces
 {
     /// <summary>
     /// interface describing web hook payload as received by SonarCloud
@@ -15,6 +17,7 @@
 
     public class Properties
     {
+        [JsonProperty(PropertyName = "sonar.analysis.buildIdentifier")]
         public string buildIdentifier { get; set; }
     }
 
