@@ -3,7 +3,7 @@
 namespace SonarWebHookFrontAPI.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Probe")]
+    [Route("Probe")]
     public class ProbeController : Controller
     {
         [HttpGet]
