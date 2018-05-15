@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SonarCloudWebhook", "SonarCloudWebhook\SonarCloudWebhook.sfproj", "{5B02772F-7F70-484F-A43E-CD70CDDCDD19}"
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SonarCloudWebhook.ServiceFabric", "SonarCloudWebhook.ServiceFabric\SonarCloudWebhook.ServiceFabric.sfproj", "{5B02772F-7F70-484F-A43E-CD70CDDCDD19}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SonarWebHookFrontAPI", "SonarWebHookFrontAPI\SonarWebHookFrontAPI.csproj", "{29C86280-2F3A-4846-BF2B-8A0892EB087E}"
 EndProject
@@ -23,18 +23,18 @@ Global
 		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Release|x64.ActiveCfg = Release|x64
 		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Release|x64.Build.0 = Release|x64
 		{5B02772F-7F70-484F-A43E-CD70CDDCDD19}.Release|x64.Deploy.0 = Release|x64
-		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Debug|x64.ActiveCfg = Debug|x64
-		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Debug|x64.Build.0 = Debug|x64
-		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Release|x64.ActiveCfg = Release|x64
-		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Release|x64.Build.0 = Release|x64
-		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Debug|x64.ActiveCfg = Debug|x64
-		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Debug|x64.Build.0 = Debug|x64
-		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Release|x64.ActiveCfg = Release|x64
-		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Release|x64.Build.0 = Release|x64
-		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Debug|x64.ActiveCfg = Debug|x64
-		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Debug|x64.Build.0 = Debug|x64
-		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Release|x64.ActiveCfg = Release|x64
-		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Release|x64.Build.0 = Release|x64
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Debug|x64.Build.0 = Debug|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Release|x64.ActiveCfg = Release|Any CPU
+		{29C86280-2F3A-4846-BF2B-8A0892EB087E}.Release|x64.Build.0 = Release|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Debug|x64.Build.0 = Debug|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Release|x64.ActiveCfg = Release|Any CPU
+		{A2F75F23-F838-482F-AA0A-46BC72CCE1B3}.Release|x64.Build.0 = Release|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Debug|x64.Build.0 = Debug|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Release|x64.ActiveCfg = Release|Any CPU
+		{2513E81D-7532-4380-8D07-7FBFE5826BF8}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
