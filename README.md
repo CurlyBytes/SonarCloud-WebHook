@@ -1,5 +1,5 @@
 
-``# SonarCloud-WebHook project
+# SonarCloud-WebHook project
 
 This project contains the backend components to receive and enquire about the quality gate success/failure as received from SonarCloud.io
 
@@ -79,18 +79,19 @@ its endpoints are
 
 The typical build sequence would therefore be
 
-- prepare build identifier, this can be achived with script similar to 
+- ### prepare build identifier
+this can be achived with script similar to 
 
 ```
 $newGuid =[guid]::NewGuid()
 Write-Host "##vso[task.setvariable variable=sonarBuildIdentifier]$newGuid"
 ```
-- pass the build identifier to scanner
+- ### pass the build identifier to scanner
 when running the 'Prepare analysis on SonarCloud' make sure the variable is included in the Advanced/Additional Properties configuration
 ```
 sonar.analysis.buildIdentifier=$(sonarBuildIdentifier)
 ```
 
--add SonarCloud Quality Gate Keeper task
+- ### add SonarCloud Quality Gate Keeper task
 
 this must be done after the `Publish Analysis Result` task. See https://github.com/eShopWorld/SonarCloud-WebHookVSTS/blob/master/README.md for details.
